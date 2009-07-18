@@ -1,0 +1,3 @@
+post_install() {
+  echo "Make sure to take a look at the HOWTO on BTG's website: http://btg.berlios.de/"
+}

@@ -1,0 +1,21 @@
+--- configure	2009-01-20 21:56:09.000000000 -0800
++++ configure	2009-01-20 21:58:11.000000000 -0800
+@@ -28185,12 +28185,12 @@
+ { echo "$as_me:$LINENO: result: $mp_cv_ncursesw" >&5
+ echo "${ECHO_T}$mp_cv_ncursesw" >&6; }
+ 
+-     if test "$mp_cv_ncursesw" = yes
+-     then
+-       { { echo "$as_me:$LINENO: error: Attempt to use ncurses with wide character support." >&5
+-echo "$as_me: error: Attempt to use ncurses with wide character support." >&2;}
+-   { (exit 1); exit 1; }; }
+-     fi
++#     if test "$mp_cv_ncursesw" = yes
++#     then
++#       { { echo "$as_me:$LINENO: error: Attempt to use ncurses with wide character support." >&5
++#echo "$as_me: error: Attempt to use ncurses with wide character support." >&2;}
++#   { (exit 1); exit 1; }; }
++#     fi
+ 
+    fi
+    LIBS="$mp_save_LIBS"
